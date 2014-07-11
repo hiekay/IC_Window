@@ -1,0 +1,22 @@
+IC_Window
+===================
+
+To improve window aggregate queries in SciDB with Incremental Computation.
+'ic_window' implemented into SciDB as a plugin user-defined-operator        
+SciDB Version: 13.12
+
+===================
+Usage:
+copy libicwindow.so into the scidb plugin dir, 
+run the following command within 'iquery' client of SciDB
+AFL% load_library('icwindow');
+
+Then operator 'ic_window' can be used.                                                                                                                  
+Its parameter settings are same as the build-in operator 'window' in SciDB
+Check in the SciDB-Userguide
+
+
+ ====================
+ To Make:                                                                
+ Need to modify the Makefile, set the SciDB-Source Directory with correct location in your machine.                          
+ A few libraries needed to compile, same ones as building SciDB from Source Code.
