@@ -1,0 +1,15 @@
+ValueToDouble(const TypeId type, const Value& value)
+DoubleToValue(const TypeId type, double d, Value& value)
+
+
+class Value 
+	setData(const void* data, size_t size)
+	_data;
+	_size;
+
+
+
+
+
+	string& _aggregate->getName()
+	_aggregate->getAggregateType()

@@ -1,0 +1,2 @@
+time iquery -aq "ic_window(TT,0,10,0,100,max(v));" -r output
+time iquery -aq "window(TT,0,10,0,100,max(v),'probe');" -r outpu
