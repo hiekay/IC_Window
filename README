@@ -2,7 +2,9 @@ IC_Window
 ===================
 
 To improve window aggregate queries in SciDB with Incremental Computation.
-'ic_window' implemented into SciDB as a plugin user-defined-operator        
+'ic_window' implemented into SciDB as a plugin user-defined-operator       
+
+With aggregate operators: Sum, Avg, Max, Min
 SciDB Version: 13.12
 
 ===================
